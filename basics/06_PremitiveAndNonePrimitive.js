@@ -78,6 +78,7 @@ let isStudent = {
   education: "Bs cs"
 }
 
+//day two practice
 function checkStudent(obj){
   obj.name ="Salman khan"
   obj.city="Swat"
@@ -85,3 +86,13 @@ function checkStudent(obj){
 
 checkStudent(isStudent);
 console.log(isStudent);
+
+let arr={name:"abdullah",status:"Student", city:"Mardan",MbNo:"03189930088"};
+
+function checkArray(arr){
+  arr.name="Muhammad Abdullah",
+  arr.temporaryIdress="Abbottabad"//add dynamically new data to the array
+}
+
+checkArray(arr);
+console.log(arr);
