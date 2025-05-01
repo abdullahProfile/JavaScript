@@ -4,10 +4,10 @@ function handleSubmit() {
 
   let arr;
   const nameRegex = /^[A-Za-z\s]+$/;
-  if (!nameRegex.test(userName)){
+  if (!nameRegex.test(userName) || userName === ""){
     alert("Please Enter correct Name only in letters")
   }
-  else if (isNaN(userPassword) || userName === "") {
+  else if (isNaN(userPassword) ||userPassword ==="" ) {
     alert("Enter correct password");
   }
   else {
