@@ -70,3 +70,18 @@ function RecieveObject(obj){
 
 RecieveObject(isPerson); //modify the object
 console.log(isPerson); //resulut is Abdullah malik age: 21
+
+let isStudent = {
+  name: "Abdullah",
+  status: "Yes Student",
+  city: "",
+  education: "Bs cs"
+}
+
+function checkStudent(obj){
+  obj.name ="Salman khan"
+  obj.city="Swat"
+}
+
+checkStudent(isStudent);
+console.log(isStudent);
